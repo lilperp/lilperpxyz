@@ -1,0 +1,13 @@
+title: lilperp.xyz
+description: A small personal site.
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

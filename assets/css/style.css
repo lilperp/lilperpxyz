@@ -1,0 +1,136 @@
+body {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+}
+
+a {
+  color: #0864c7;
+}
+
+#menu {
+  float: right;
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: 20px;
+  margin-top: 30px;
+  text-align: right;
+  width: 150px;
+}
+
+#menu .title {
+  color: #333;
+  text-decoration: none;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li a {
+  display: inline-block;
+}
+
+#left {
+  display: block;
+  float: left;
+  height: 1px;
+  margin: 0;
+  min-width: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 200px;
+}
+
+#content {
+  float: left;
+  margin-top: 15px;
+  padding-bottom: 40px;
+  width: 500px;
+}
+
+#content h1,
+#content h2,
+#content h3 {
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+#content h1 {
+  font-size: 20px;
+}
+
+#content h2 {
+  font-size: 16px;
+  margin-top: 2em;
+}
+
+#content h3 {
+  font-size: 14px;
+  margin-top: 2em;
+}
+
+#content p,
+#content ul {
+  line-height: 18px;
+}
+
+#content p.notop {
+  margin-top: 0;
+}
+
+#content li {
+  margin-bottom: 0.7em;
+}
+
+.bookshelf {
+  list-style-position: outside;
+  padding-left: 22px;
+}
+
+.book-title {
+  font-weight: bold;
+}
+
+.book-note,
+.bookshelf li em {
+  color: #555;
+}
+
+.profile-image {
+  display: block;
+  height: 130px;
+  margin: 14px 0;
+  width: 130px;
+}
+
+@media (max-width: 760px) {
+  body {
+    margin: 18px;
+  }
+
+  #menu {
+    float: none;
+    margin: 0 0 24px;
+    text-align: left;
+    width: auto;
+  }
+
+  #menu li {
+    display: inline;
+    margin-right: 12px;
+  }
+
+  #left {
+    display: none;
+  }
+
+  #content {
+    float: none;
+    margin-top: 0;
+    max-width: 500px;
+    width: auto;
+  }
+}
