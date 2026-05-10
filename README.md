@@ -25,6 +25,7 @@ Then open <http://127.0.0.1:4000>.
 - About copy: `index.md` and `about.md`
 - About content: `_includes/about-content.md`
 - Bookshelf content: `_includes/bookshelf-content.md`
+- Blog posts: `_posts/YYYY-MM-DD-post-title.md`
 - Site title and metadata: `_config.yml`
 - Styling: `assets/css/style.css`
 

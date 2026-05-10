@@ -99,6 +99,17 @@ a {
   color: #555;
 }
 
+.post-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.post-date {
+  color: #aaa;
+  display: block;
+  font-size: 10px;
+}
+
 .profile-image {
   display: block;
   height: 130px;
